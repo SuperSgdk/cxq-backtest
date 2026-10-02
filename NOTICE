@@ -1,0 +1,17 @@
+CXQ Backtest
+Copyright (C) 2026 SuperSgdk
+
+本仓库的框架扩展采用 GNU General Public License version 3 or later
+（SPDX-License-Identifier: GPL-3.0-or-later）。完整许可证见 LICENSE。
+
+本项目基于 Backtrader 的官方 Python 依赖扩展回测能力。Backtrader
+由其原作者和贡献者开发，使用 GPL-3.0-or-later；其著作权与许可归原项目。
+项目链接：https://github.com/mementum/backtrader
+本仓库不把 Backtrader 的已有实现表述为本项目原创。
+
+LICENSE 中的 GNU GPLv3 完整文本复制自本地安装的
+backtrader 1.9.78.123 分发包 LICENSE，保持正文不变。
+
+其他第三方依赖保留各自的著作权与许可，具体以其分发包为准。
+仓库不附带采购行情、供应商说明材料或私有策略。examples 中的
+CSV 为人工构造的测试场景，不代表真实历史行情或投资业绩。

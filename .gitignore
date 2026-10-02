@@ -1,0 +1,55 @@
+# 本地环境与 Python 生成文件
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# 行情、运行结果、缓存与日志不公开
+data/
+reports/
+outputs/
+__cache/
+__probe_out/
+*.parquet
+*.duckdb
+*.feather
+*.arrow
+*.log
+
+# 凭据；示例配置仍须经人工检查
+.env
+.env.*
+!.env.example
+**/.env
+**/.env.*
+!**/.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+id_rsa
+id_ed25519
+credentials*.json
+secrets*.json
+
+# 原数据说明材料不属于框架发布物
+*.ipynb
+*.pdf
+*.xlsx
+*.xls
+*.zip
+*.7z
+
+# 本地编辑器
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

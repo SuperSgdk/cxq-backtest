@@ -1,0 +1,12 @@
+# 同时安装框架、界面与可选指标核对库。
+# 仅需框架时，使用 python -m pip install -e .
+-e .[ui,validation]
+# 本次 Python 3.13 独立环境实际核验的版本；其他版本按 README 安装 extras。
+backtrader==1.9.78.123
+pandas==2.3.3
+numpy==2.5.3
+pyarrow==25.0.1
+streamlit==1.64.0
+plotly==7.1.0
+empyrical-reloaded==0.5.12
+quantstats==0.0.81

@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cxq-backtest"
+version = "0.1.0"
+description = "基于 Backtrader 扩展的 A 股日级回测框架"
+readme = "README.md"
+requires-python = ">=3.11"
+license = "GPL-3.0-or-later"
+license-files = ["LICENSE", "NOTICE"]
+authors = [{name = "SuperSgdk"}]
+dependencies = [
+    "backtrader==1.9.78.123",
+    "pandas>=2.3,<3",
+    "numpy>=1.26,<3",
+    "pyarrow>=15",
+]
+
+[project.optional-dependencies]
+ui = ["streamlit>=1.64,<2", "plotly>=7.1,<8"]
+validation = ["empyrical-reloaded>=0.5", "quantstats>=0.0.62,<1"]
+
+[tool.setuptools.packages.find]
+include = ["cxq_bt*"]
